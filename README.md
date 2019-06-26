@@ -6,6 +6,7 @@ Just a basic implementation of A2C for AI-Safety-Gridworlds environment. Decided
 Other than your standard ML/RL ammunition, you'll need to install a Gym wrapper for the original [environments](https://github.com/deepmind/ai-safety-gridworlds) by DeepMind. Thanks to [@david-lindner](https://github.com/david-lindner), 
 ```shell
 git clone https://github.com/david-lindner/safe-grid-gym
+cd safe-grid-gym
 python3 setup.py install
 ```
 ## Running
